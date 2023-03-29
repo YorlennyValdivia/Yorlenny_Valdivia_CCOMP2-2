@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int edad = 0;
+  cout << "Coloque su edad" << endl;
+  cin >> edad;
+  int comun = 220 - edad;
+  cout << "Su Máxima Frecuencia Cardíaca es: "<< comun << endl;
+  float tanaka = 208 - 0.7*(edad);
+  cout << "Su Máxima Frecuencia Cardíaca es, según Tanaka: " << tanaka << endl;
+  float gellish = 207 - 0.7*(edad);
+  cout << "Su Máxima Frecuencia Cardíaca es, según Gellish: "<< gellish << endl;
+  float nes_et_al = 211 - 0.64*(edad);
+  cout << "Su Máxima Frecuencia Cardíaca es, según  Nes et al: " << nes_et_al << endl;
+  return 0;
+}
