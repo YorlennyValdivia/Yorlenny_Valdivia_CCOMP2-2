@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int Cara, SArea, Volumen;
+    cout << "longitud de \tsuperficie \tvolumen \nla cara\ndel cubo(cm)\tdel cubo(cm2)\tdel cubo(cm3)" << endl;
+    Cara= 1;
+    SArea = 6 * (Cara * Cara);
+    Volumen = Cara * Cara * Cara;
+    cout << Cara << "\t\t\t\t" << SArea << "\t\t\t\t" << Volumen << endl;
+    
+    Cara = 2;
+    SArea = 6 * (Cara * Cara);
+    Volumen = Cara * Cara * Cara;
+    cout << Cara << "\t\t\t\t" << SArea << "\t\t\t\t" << Volumen << endl;
+    Cara= 3;
+    SArea = 6 * (Cara * Cara);
+    Volumen = Cara * Cara * Cara;
+    cout << Cara << "\t\t\t\t" << SArea << "\t\t\t\t" << Volumen << endl;
+    
+    Cara = 4;
+    SArea = 6 * (Cara * Cara);
+    Volumen = Cara * Cara * Cara;
+    cout << Cara << "\t\t\t\t" << SArea << "\t\t\t\t" << Volumen << endl;
+    return 0;
+}
