@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+  float millasR = 0;
+  float costo = 0;
+  float millasG = 0;
+  float peaje = 0;
+  cout << "total de millas recorridas: " << endl;
+  cin >> millasR;
+  cout << "costo de gasolina por galon" <<endl;
+  cin >> costo;
+  cout << "millas en promedio por galon" << endl;
+  cin >> millasG;
+  cout << "peajes" << endl;
+  cin >> peaje;
+  cout << "ahorro hasta s/." << (((costo* millasR)*45)/100) + millasG + peaje << " de s/." << (costo*millasR) + millasG+ peaje << " a diario." << endl;
+  return 0;
+}
