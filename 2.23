@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main(){
+int mayor = 0;
+int menor = 0;
+int suma = 0;
+int num;
+    for(int rnum = 5)
+    {
+        cout<<"ingrese el nunero: "<<endl;
+        cin>>num;
+        if(a==1){
+        mayor = num;
+        menor = num;
+    }
+    else if(num > mayor){
+        mayor = num;
+    }
+    else if(num< menor){
+         menor = num;
+    }
+    suma += num;
+    }
+    cout<<"el mayor es: "<<mayor<<endl;
+    cout<<"el menor es: "<<menor<<endl;
+    return 0;
+}
